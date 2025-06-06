@@ -72,7 +72,7 @@
 
 **Internal Integrations:**
 
-- [TO BE DEFINED - How components connect to each other]
+- Git submodule: OpenAI Node.js SDK at `vendors/openai-sdk` (https://github.com/Luxcium/openai-node.git)
 - [TO BE DEFINED - Data exchange formats and protocols]
 
 ## Technical Constraints

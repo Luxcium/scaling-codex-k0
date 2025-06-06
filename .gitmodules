@@ -1,0 +1,3 @@
+[submodule "vendors/openai-sdk"]
+	path = vendors/openai-sdk
+	url = https://github.com/Luxcium/openai-node.git
