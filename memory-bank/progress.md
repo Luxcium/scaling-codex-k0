@@ -57,6 +57,7 @@
 - Use Memory Bank system for real project implementation
 - Test Memory Bank effectiveness with concrete development work
 - Validate template system with real development scenarios
+- Add SDK testing examples for TypeScript, Python, and CLI (requires secret token)
 - [TO BE DEFINED - Next features to implement based on actual project needs]
 
 **Short-term Goals:**
