@@ -19,6 +19,7 @@
 3. Verify all cross-references between Memory Bank files are accurate
 4. Ensure templates are fully self-instructive for any AI agent
 5. Add environment detection and markdown lint scripts for CI/CD readiness
+6. Draft SDK testing instructions for TypeScript, Python, and CLI examples
 
 ## Recent Changes
 
@@ -105,6 +106,7 @@
 - Begin actual project implementation using Memory Bank workflow
 - Test Memory Bank effectiveness with real project work
 - Validate template system with concrete development tasks
+- Implement SDK testing code once secret token is available
 
 ---
 
