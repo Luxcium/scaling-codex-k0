@@ -16,12 +16,15 @@
 
 1. Initialize and configure OpenAI SDK integration
 2. Document SDK usage patterns and requirements
-3. Update development setup instructions for submodule handling
+3. Verify submodule automation script across environments
 4. Consider additional dependencies that may be needed
 
 ## Recent Changes
 
 **Files Created/Modified:**
+- `scripts/init-submodules.sh` - Added automation for git submodule setup
+- `scripts/README.md` - Documented new script
+- `README.md` - Added cloning instructions for submodules
 
 - `vendors/openai-sdk` - Added OpenAI Node.js SDK as git submodule
 - `memory-bank/techContext.md` - Updated with OpenAI SDK integration details

@@ -209,6 +209,12 @@ working directory. This helps validate the runtime context during each
 lifecycle phase and is useful for troubleshooting or for CI/CD pipelines
 that need to capture environment metadata.
 
+### init-submodules.sh
+
+`init-submodules.sh` initializes and updates git submodules automatically.
+It runs `git submodule update --init --recursive` to ensure all dependencies are fetched.
+
+
 ---
 
 ## Adding New Scripts
