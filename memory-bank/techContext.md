@@ -41,6 +41,9 @@
 # [TO BE DEFINED - Step-by-step setup commands]
 # 1. Install prerequisites
 # 2. Clone and configure
+git clone --recurse-submodules <repo-url>
+cd <repo-dir>
+./scripts/init-submodules.sh
 # 3. Install dependencies
 # 4. Run development server
 ```

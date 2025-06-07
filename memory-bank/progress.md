@@ -24,6 +24,7 @@
 - Dependency management structure using `vendors` directory
 - Documentation of external dependencies in Memory Bank system
 - Git submodule workflow established for third-party code management
+- Submodule setup automated via `scripts/init-submodules.sh` and documented in README
 
 **Validated Approaches:**
 

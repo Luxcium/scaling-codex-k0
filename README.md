@@ -27,6 +27,8 @@ This project provides a complete VS Code configuration for GitHub Copilot Chat t
    - VS Code 1.99+
    - GitHub Copilot Chat extension installed and configured
    - Git repository initialized
+   - Clone with submodules: `git clone --recurse-submodules <repo-url>`
+   - Or run `./scripts/init-submodules.sh` after cloning
 
 2. **Copy Configuration Files**:
    ```bash
