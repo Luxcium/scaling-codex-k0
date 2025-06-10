@@ -180,21 +180,4 @@ cd <repo-dir>
 
 ## Genesis Boot-Phase Checks
 
-1. **Check for `node_modules` folder**
-2. **If missing**:
-   - Detect package manager:
-     - `pnpm-lock.yaml` → use **pnpm**
-     - `package-lock.json` or `npm-shrinkwrap.json` → use **npm**
-     - `yarn.lock` → use **yarn**
-   - If pnpm:
-     - Check for `pnpm-workspace.yaml` for workspace settings
-     - Verify that the workspace branch configuration matches the expected setup
-   - Install dependencies with the detected manager
-3. **Verify** `node_modules` exists:
-   - Success → log "Dependencies installed"
-   - Failure → alert "Dependency installation failed"
-4. **Detect container environment**:
-   - `/.dockerenv` file or `CI=true` env var → mark as "inside container"
-5. **Validate Git repo**:
-   - `git rev-parse --is-inside-work-tree`
-   - If true → log `git status` and current branch
+For detailed steps on the Genesis Boot-Phase Checks, refer to the [Genesis Phase Documentation](genesis-phase.md#genesis-boot-phase-checks).
