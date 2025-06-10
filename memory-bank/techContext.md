@@ -188,7 +188,7 @@ cd <repo-dir>
      - `yarn.lock` → use **yarn**
    - If pnpm:
      - Check for `pnpm-workspace.yaml` for workspace settings
-     - Branch per workspace configuration
+     - Verify that the workspace branch configuration matches the expected setup
    - Install dependencies with the detected manager
 3. **Verify** `node_modules` exists:
    - Success → log "Dependencies installed"
