@@ -11,6 +11,7 @@
 - Added OpenAI Node.js SDK as git submodule in `vendors/openai-sdk`
 - Documenting dependency integration in Memory Bank files
 - Managing project dependencies through git submodules
+- Adding genesis boot-phase checks for environment setup
 
 **Immediate Next Steps:**
 
@@ -18,6 +19,7 @@
 2. Document SDK usage patterns and requirements
 3. Verify submodule automation script across environments
 4. Consider additional dependencies that may be needed
+5. Document minimal genesis boot-phase checks in techContext and new genesis-phase file
 
 ## Recent Changes
 
@@ -29,6 +31,7 @@
 - `vendors/openai-sdk` - Added OpenAI Node.js SDK as git submodule
 - `memory-bank/techContext.md` - Updated with OpenAI SDK integration details
 - `memory-bank/activeContext.md` - Updated current work focus and next steps
+- `memory-bank/genesis-phase.md` - Documented minimal genesis boot-phase logic
 
 **Key Decisions Made:**
 

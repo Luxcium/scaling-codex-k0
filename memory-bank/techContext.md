@@ -177,3 +177,7 @@ cd <repo-dir>
 - Operating System: Linux 6.14
 - Default Shell: /bin/bash
 - Home Directory: /home/luxcium
+
+## Genesis Boot-Phase Checks
+
+For detailed steps on the Genesis Boot-Phase Checks, refer to the [Genesis Phase Documentation](genesis-phase.md#genesis-boot-phase-checks).

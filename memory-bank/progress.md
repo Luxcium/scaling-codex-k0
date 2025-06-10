@@ -25,6 +25,7 @@
 - Documentation of external dependencies in Memory Bank system
 - Git submodule workflow established for third-party code management
 - Submodule setup automated via `scripts/init-submodules.sh` and documented in README
+- Genesis boot-phase checks documented for initial environment setup
 
 **Validated Approaches:**
 
